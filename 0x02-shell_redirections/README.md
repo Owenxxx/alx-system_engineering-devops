@@ -1,1 +1,1 @@
-this is a readme for 0x02 shell
+0x02. Shell, I/O Redirections and filters
