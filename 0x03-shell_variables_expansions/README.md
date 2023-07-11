@@ -1,1 +1,1 @@
-project Shell, init files, variables and expansions
+first readm in this project 0x03 by oussama
