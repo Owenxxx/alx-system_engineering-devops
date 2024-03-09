@@ -1,36 +1,24 @@
 # Processes and signals
-# Bash scripts
 
-- ##### 0-what-is-my-pid
-A Bash script that displays its own PID.
+Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about PID, processes and commands that handles them (`ps`, `pgrep`, `pkill`, `kill`, etc) in **Bash**.
 
-- ##### 1-list_your_processes
-A Bash script that displays a list of currently running processes.
+## Technologies
+* Scripts written in Bash 4.3.11(1)
+* Tested on Ubuntu 14.04 LTS
 
-- ##### 2-show_your_bash_pid
-A Bash script that displays lines containing the bash word, thus allowing you to
- easily get the PID of your Bash process.
+## Files
 
-- ##### 3-show_your_bash_pid_made_easy
-A Bash script that displays the PID, along with the process name, of processes
- whose name contain the word bash.
-
-- ##### 4-to_infinity_and_beyond
-A Bash script that displays To infinity and beyond indefinitely.
-
-- ##### 5-dont_stop_me_now
-A Bash script that stops 4-to_infinity_and_beyond process.
-
-- ##### 6-stop_me_if_you_can
-A Bash script that stops 4-to_infinity_and_beyond process.
-
-- ##### 7-highlander
-A Bash script that displays:
-  - `To infinity and beyond` indefinitely
-  - With a `sleep 2` in between each iteration
-  - `I am invincible!!!` when receiving a SIGTERM signal
-A copy of `6-stop_me_if_you_can` script named `67-stop_me_if_you_can`, kills the
-`7-highlander` process instead of the `4-to_infinity_and_beyond` one.
-
-- ##### 8-beheaded_process
-A Bash script that kills the process 7-highlander.
+| Filename | Description |
+| -------- | ----------- |
+| `0-what-is-my-pid` | Displays its own PID |
+| `1-list_your_processes` | Displays a list of currently running processes |
+| `2-show_your_bash_pid` | Displays lines contaning the `bash` word in a list of currently running processes |
+| `3-show_your_bash_pid_made_easy` | Displays the PID, along with the process name, of processes whose name contain the word `Bash` |
+| `4-to_infinity_and_beyond` | Displays `To infinity and beyond` indefinitely |
+| `5-kill_me_now` | Kills `4-to_infinity_and_beyond` process |
+| `6-kill_me_now_made_easy` | Kills `4-to_infinity_and_beyond` process |
+| `7-highlander` | Displays `To infinity and beyond` indefinitely and displays `I am invincible!!!` when receiving a `SIGTERM` signal |
+| `8-beheaded_process` | Kills the process `7-highlander` |
+| `100-process_and_pid_file` | Prints some messages according to sended signals |
+| `101-manage_my_process` | Init script that manages `manage_my_process` with `start`, `stop` and `restart` instructions |
+| `102-zombie.c` | C program that creates 5 zombie processes |
